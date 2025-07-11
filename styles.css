@@ -1,7 +1,17 @@
+
+.from-input{
+   border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px #9eacc2
+   
+}
+
 .from-input{
     display: flex;
     flex-direction: column;
     width: 50%;
+     background-color:#f9fbfd
+   
 }
 .from-input,input{
     margin-top: 20px
@@ -20,4 +30,20 @@ label{
 a{
     text-decoration: none;
     color: black;
+}
+.btn{
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background: #e0e5ec;
+    box-shadow:inset 5px 5px 5px  #9e9ec7, inset -5px -5px 5px #ffffff;
+    cursor: pointer;
+    transition:  0.3s;
+ 
+}
+.hover:hover{
+    background-color: #9e9ec7;
+    border-radius: 5px;
+    padding: 5px;
+    
 }
